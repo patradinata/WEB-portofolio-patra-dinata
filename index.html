@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile</title>
+  </head>
+
+  <body id="home" class="scrollspy">
+    <!-- navbar -->
+    <div class="navbar-fixed">
+      <nav class="blue lighten-1">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#home" class="brand-logo">My-Portfolio</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#clients">Clients</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <div class="Icons"></div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- navbar end -->
+
+    <!-- sidenav -->
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#clients">Clients</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+    <!-- slider -->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/slider/13.jpg" />
+          <!-- random image -->
+          <div class="caption left-align">
+            <h3>Web Development</h3>
+            <h5 class="light grey-text text-lighten-3"></h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider/11.jpg" />
+          <!-- random image -->
+          <div class="caption right-align">
+            <h3>Mobile APP Development</h3>
+            <h5 class="light grey-text text-lighten-3"></h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider/7.jpg" />
+          <!-- random image -->
+          <div class="caption center-align">
+            <h3>Game Development</h3>
+            <h5 class="light grey-text text-lighten-2"></h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- about us -->
+    <section id="about" class="about scrollspy">
+      <div class="container">
+        <div class="row">
+          <h3 class="center light grey-text-darken-3">About Us</h3>
+          <div class="col m6 light">
+            <h5>We Are Professionals</h5>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla est aliquid expedita commodi. Distinctio, odit! Ipsam iure laudantium a, quod voluptas consequatur dolor reprehenderit optio enim. Quos architecto quam optio?
+            </p>
+          </div>
+          <div class="col m6 light">
+            <p>WEB DEVELOPMENT</p>
+            <div class="progress">
+              <div class="determinate blue" style="width: 95%"></div>
+            </div>
+            <p>MOBILE APP DEVELOPMENT</p>
+            <div class="progress">
+              <div class="determinate blue" style="width: 80%"></div>
+            </div>
+            <p>GAME DEVELOPMENT</p>
+            <div class="progress">
+              <div class="determinate blue" style="width: 65%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients -->
+    <div id="clients" class="parallax-container scrollspy">
+      <div class="parallax"><img src="img/clients/8.jpg" /></div>
+
+      <div class="container clients">
+        <h3 class="center light white-text">Our Clients</h3>
+        <div class="row">
+          <div class="col m4 s12 center">
+            <img src="img/clients/gojek.png" />
+          </div>
+          <div class="col m4 s12 center">
+            <img src="img/clients/tokopedia.png" />
+          </div>
+          <div class="col m4 s12 center">
+            <img src="img/clients/traveloka.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+    <section id="services" class="services grey lighten-3 scrollspy">
+      <div class="container">
+        <div class="row">
+          <h3 class="light center grey-text text-darken-3">Our Services</h3>
+          <div class="col m4 s12">
+            <div class="card-panel center">
+              <i class="material-icons medium">desktop_windows</i>
+              <h5>Web Development</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, nostrum?</p>
+            </div>
+          </div>
+          <div class="col m4 s12">
+            <div class="card-panel center">
+              <i class="material-icons medium">developer_mode</i>
+              <h5>Mobile APP Development</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing?</p>
+            </div>
+          </div>
+          <div class="col m4 s12">
+            <div class="card-panel center">
+              <i class="material-icons medium">games</i>
+              <h5>Game Development</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, nostrum?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portofolio -->
+    <section id="portfolio" class="portfolio scrollspy">
+      <div class="container">
+        <h3 class="light center grey-text text-darken-3">Portfolio</h3>
+        <div class="row">
+          <div class="col m3 s12">
+            <img src="img/portfolio/1.png" class="responsive-img materialboxed" />
+          </div>
+          <div class="col m3 s12">
+            <img src="img/portfolio/2.png" class="responsive-img materialboxed" />
+          </div>
+          <div class="col m3 s12">
+            <img src="img/portfolio/3.png" class="responsive-img materialboxed" />
+          </div>
+          <div class="col m3 s12">
+            <img src="img/portfolio/patra.jpg" class="responsive-img materialboxed" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col m3 s12">
+            <img src="img/portfolio/5.png" class="responsive-img materialboxed" />
+          </div>
+          <div class="col m3 s12">
+            <img src="img/portfolio/6.png" class="responsive-img materialboxed" />
+          </div>
+          <div class="col m3 s12">
+            <img src="img/portfolio/1.png" class="responsive-img materialboxed" />
+          </div>
+          <div class="col m3 s12">
+            <img src="img/portfolio/2.png" class="responsive-img materialboxed" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us-->
+    <section id="contact" class="contact grey lighten-3 scrollspy">
+      <div class="container">
+        <h3 class="light grey-text text-darken-3 center">Contact Us</h3>
+        <div class="row">
+          <div class="col m5 s12">
+            <div class="card-panel blue darken-2 center white-text">
+              <i class="material-icons medium">email</i>
+              <h5>Contact</h5>
+              <p>Silakan hubungi kami jika ada informasi lebih lanjut!</p>
+            </div>
+            <ul class="collection with-header">
+              <li class="collection-header"><h4>Our Office</h4></li>
+              <li class="collection-item">Patra Dinata</li>
+              <li class="collection-item">Jl. Ahmad-yani No-16 A, Pringsewu</li>
+              <li class="collection-item">Lampung, Indonesia</li>
+              <li class="collection-item">WhatsApp: +62857-8822-9884</li>
+            </ul>
+          </div>
+
+          <div class="col m7 s12">
+            <form>
+              <div class="card-panel">
+                <h5>Please Fill out this form</h5>
+                <div class="input-field">
+                  <input type="text" name="name" id="name" required class="validate" />
+                  <label for="name">Name</label>
+                </div>
+                <div class="input-field">
+                  <input type="email" name="email" id="email" class="validate" />
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field">
+                  <input type="text" name="phone" id="phone" />
+                  <label for="phone">Phone Number</label>
+                </div>
+                <div class="input-field">
+                  <textarea name="message" id="message" class="materialize-textarea"></textarea>
+                  <label for="message">Message</label>
+                </div>
+                <button type="submit" class="btn blue darken-2">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="page-footer blue lighten-1">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Company-Profile Patra Dinata</h5>
+            <p class="grey-text text-lighten-4">Silakan Follow saya di social media.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Sosial Media</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/patra_dinata">Instagram</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://web.whatsapp.com/085788229884">WhatsApp</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2024 patra dinata copyright All right reserved
+          <a class="grey-text text-lighten-3 right" href="#about">Belajar sambil berdampak😎</a>
+        </div>
+      </div>
+    </footer>
+
+    <!--JavaScript Start-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      // memunculkan hamburgermenu ketika di klik
+      const sidenav = document.querySelectorAll(".sidenav");
+      M.Sidenav.init(sidenav);
+      // hamburger menu selesai
+
+      const slider = document.querySelectorAll(".slider");
+      M.Slider.init(slider, {
+        indicators: false,
+        height: 1000,
+        transtion: 600,
+        interval: 3000,
+      });
+
+      const parallax = document.querySelectorAll(".parallax");
+      M.Parallax.init(parallax);
+
+      const materialBox = document.querySelectorAll(".materialboxed");
+      M.Materialbox.init(materialBox);
+
+      const scroll = document.querySelectorAll(".scrollspy");
+      M.ScrollSpy.init(scroll, {
+        scrollOffset: 100,
+      });
+    </script>
+  </body>
+</html>
